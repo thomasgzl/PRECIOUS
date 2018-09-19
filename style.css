@@ -1,22 +1,42 @@
-@charset "UTF-8";
+@font-face {
+	font-family: myFirstFont;
+	src: url(anicb___.ttf);
+	src: url(anicm___.ttf),
+		url(anirb___.ttf),
+		url(anirm___.ttf);
+}
 
-html,body
-{
-    width: 100%;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden; 
+@font-face {
+	font-family: secondFont;
+	src: url(partybusiness.ttf);
+}
+
+@font-face {
+	font-family: thirdFont;
+	src: url(tngan.ttf);
+	src: url(tnganb.ttf),
+		url(tnganbi.ttf),
+		url(tngani.ttf);
+}
+
+html,
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	overflow-x: hidden;
 }
 
 #fellows h2 {
 	padding-left: 17%;
-	padding-top: 1%;	
+	padding-top: 1%;
 }
 
 span {
 	font-size: 19pt;
 }
+
 .col-sm4 {
 	padding-left: 5%;
 }
@@ -27,7 +47,8 @@ span {
 }
 
 .btn {
-	margin-bottom:10px;
+	margin-bottom: 10px;
+	border-radius: 0%;
 }
 
 .abtn {
@@ -39,25 +60,24 @@ span {
 }
 
 .table2 {
-	padding-top:2%;
+	padding-top: 2%;
 }
 
 #footer {
 	background-color: #212529;
 }
 
-a:link 
-{ 
-text-decoration:none;
-color: white; 
-} 
+a:link {
+	text-decoration: none;
+	color: white;
+}
 
 a:hover {
-	color: orange;
+	color: black;
 }
 
 .txtfooter {
-	color:white;
+	color: white;
 }
 
 h2.cont {
@@ -65,20 +85,20 @@ h2.cont {
 }
 
 .profil img {
-    opacity: 0.6;
-}   
-
-.profil:hover img {
-    opacity: 1;
+	opacity: 0.6;
 }
 
-.profil:hover .title{
-    opacity: 0;
+.profil:hover img {
+	opacity: 1;
+}
+
+.profil:hover .title {
+	opacity: 0;
 }
 
 .profil:hover .name {
-    transform: translateY(170px);
-    transition: 1s;
+	transform: translateY(135px);
+	transition: 1s;
 }
 
 .title {
@@ -89,14 +109,14 @@ h2.cont {
 }
 
 .name {
-    color: white;
-    font-weight: bold;
+	color: white;
+	font-weight: bold;
 	font-size: 25px;
 	padding-left: 30%;
 }
 
 .card-title span {
-    color: orange;
+	color: #F46426;
 }
 
 .dead {
@@ -110,4 +130,282 @@ h2.cont {
 
 .profil2 img {
 	opacity: 0.4;
+}
+
+.navbar {
+	background-color: #F46426 !important;
+}
+
+.nav-link:hover {
+	text-decoration: underline;
+}
+
+h5, p, a, h2, .btn, h3 {
+	font-family: myFirstFont;
+}
+
+#fellows {
+	background: url("https://i.imgur.com/UMNxMPv.png");
+	padding-bottom: 2%;
+}
+
+.card {
+	background-color: black!important;
+	border-style: solid;
+	border-width: 5px;
+}
+
+.btn:hover {
+	color:#F46426!important;
+}
+
+.card-text {
+	color:white;
+}
+
+.ligneinter {
+	color:#F46426;
+}
+
+#reward h2, #reward p {
+	color: white;
+}
+
+.carousel-caption h5, .carousel-caption p {
+	text-align: center;
+	text-align: top;
+}
+
+.badge-light {
+	background-color:transparent;
+	font-size: 20px;
+}
+
+#fellows .badge:hover {
+	background-color: transparent;
+	color: #F46426;
+	text-decoration: underline;
+}
+
+.sksksk {
+	font-family: thirdFont;
+	color:#F46426;
+}
+
+.yuyu {
+	font-family: thirdFont;
+	color:transparent;
+}
+
+.badge:hover .yuyu {
+	font-family: thirdFont;
+	color:#F46426;
+}
+
+.mort {
+	background-color:transparent;
+}
+
+.gimgim {
+	padding-top: 30%;
+	text-decoration: line-through;
+	text-decoration-color: #F46426;
+}
+
+.coin {
+	padding-top: 40%;
+}
+
+#reward {
+	background: url("https://i.imgur.com/jzVKdY6.png");
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
+#reward h4 {
+	background: url("https://i.imgur.com/jzVKdY6.png");
+	color: white;
+	font-family: myFirstFont;
+	font-size: 15pt;
+}
+
+#besthunters {
+	background: url("https://i.imgur.com/UMNxMPv.png");
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
+#besthunters h4 {
+	color: black;
+	font-family: myFirstFont;
+	font-size: 15pt;
+	padding-bottom: 2%;
+}
+
+.mt-0 {
+	font-family: secondFont;
+	color: #F46426;
+	font-size: 40pt;
+}
+
+#besthunters p {
+	font-family: secondFont;
+	font-size: 20pt;
+}
+
+#besthunters a {
+	font-family: secondFont;
+	text-decoration: underline;
+	color: black;
+}
+
+#besthunters a:hover {
+	font-family: secondFont;
+	text-decoration: underline;
+	color: #F46426;
+}
+
+.btn-dark {
+	color: #F46426;
+}
+
+.btn-dark:hover {
+	color: white;
+}
+
+#thering, #ring {
+	background: url("https://i.imgur.com/jzVKdY6.png");
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
+#thering h4 {
+	color: white;
+	font-family: myFirstFont;
+	font-size: 15pt;
+}
+
+#thering .card-header {
+	background-color: #F46426;
+}
+
+#thering .card-body, #thering p {
+	background-color: rgb(184, 183, 169);
+	font-family: secondFont;
+	font-size: 30pt;
+}
+
+#thering .table {
+	background-color: rgb(184, 183, 169);
+	font-family: myfirstFont;
+}
+
+#ring h4 {
+	color: white;
+	font-family: myFirstFont;
+	font-size: 15pt;
+}
+
+#ring .card-header {
+	background-color: #F46426;
+}
+
+#ring .card-body, #thering p {
+	background-color: rgb(184, 183, 169);
+	font-family: secondFont;
+	font-size: 30pt;
+}
+
+#ring .table {
+	background-color: rgb(184, 183, 169);
+	font-family: myfirstFont;
+}
+
+#ring .golgol {
+	border-radius: 90%;
+}
+
+#ring h5 {
+	color: white;
+	font-size: 20pt;
+	font-family: secondFont;
+	padding-left: 10%;
+	padding-top: 5%;
+}
+
+#ring h6 {
+	color: white;
+	font-size: 15pt;
+	font-family: secondFont;
+	padding-left: 85%;
+	padding-top: 3%;
+}
+
+#jointhearmy {
+	background: url("https://i.imgur.com/UMNxMPv.png");
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
+#jointhearmy h4 {
+	color: black;
+	font-family: myFirstFont;
+	font-size: 15pt;
+}
+
+#jointhearmy .btn-outline-secondary {
+	background-color: black;
+	border-color: black;
+}
+
+#jointhearmy h5 {
+	padding-top: 2%;
+}
+
+#jointhearmy p {
+	font-size: 20pt;
+	padding-top: 10%;
+}
+
+.txtbtn p {
+	color: #F46426;
+}
+
+#contact {
+	background: url("https://i.imgur.com/jzVKdY6.png");
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
+#footer {
+	background-color: #F46426;
+}
+
+#footer .footer-copyright {
+	color: white;
+}
+
+#footer .footer-copyright:hover {
+	background-color: rgba(0, 0, 0, 0.205);
+}
+
+#footer .logo {
+	padding-left: 42%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+
+#contact h4 {
+	color: white;
+	font-family: myFirstFont;
+	font-size: 15pt;
+}
+
+#contact .form-group {
+	font-family: myFirstFont;
+}
+
+#contact .btn:hover {
+	color: black;
+
 }
